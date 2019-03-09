@@ -1,11 +1,10 @@
-import { Layout } from "./layout.js";
-import { Canvas } from "./canvas.js";
-import { Graph } from "./graph.js";
-import { UI } from "./ui.js";
-import { Title } from "./title.js";
-import { Scale } from "./scale.js";
-import { Axis } from "./axis.js";
-import { Options } from "./options.js";
+import { Layout } from "./View/layout.js";
+import { Canvas } from "./View/canvas.js";
+import { Title } from "./View/title.js";
+import { Graph } from "./View/Graph/graph.js";
+import { Scale } from "./View/Graph/scale.js";
+import { Axis } from "./View/Graph/axis.js";
+import { UI } from "./View/UI/ui.js";
 
 class MainView {
 	constructor() {
