@@ -11,8 +11,8 @@ class UI {
 		.attr("class", "uiContainer")
 		.attr("align", "center")
 		.style("margin", layout.padding.top + "px")
-		.attr("width", layout.ui_width)
-		.style("height", layout.height + "px")
+		.attr("width", layout.uiWidth)
+		.style("height", layout.uiHeight + "px")
 		.html("Interface");
 	this.detailView = new DetailView(this.layout, this.panel);
 	this.options = new Options(this.layout, this.panel);
